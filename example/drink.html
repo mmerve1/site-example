@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+
+    <style>
+        body {
+            display: flex;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .left-section {
+            flex: 4; /* Sol tarafın genişliği (4 birim) */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .right-section {
+            flex: 8; /* Sağ tarafın genişliği (8 birim) */
+            background-color: #e0e0e0;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Kart (Card) Stilleri */
+        .card {
+            flex: 1; /* Her kartın genişliği eşit olarak paylaşılır */
+            margin: 10px;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>All Product</h2>
+            <ul>
+                <a href="drink.html" target="_blank" ><li><b>Drinks</b></li></a>
+                <li>Hot Drink</li>
+                <ul>
+                 <li>Americano</li>
+                 <li>Espresso</li>
+                 <li>Latte</li>
+                 <li>Mocha</li>
+                 <li>Flat White</li>
+                <li> Filter Coffees</li>
+                <li>Turkish Coffee</li>
+                <li>Hot Chocolate</li>
+                <li>Tea</li>
+                </ul>
+
+                <li>Cold Drink</li>
+                <ul>
+                  <li>Ice Americano</li>
+                  <li>Ice Latte</li>
+                  <li>Espresso Frappe</li>
+                  <li>Ice Cortado</li>
+                  <li>Ice Filter Coffee</li>
+               
+                </ul>
+                
+                    <a href="food.html" target="_blank" ><li><b>Foodies</b></li></a>
+                    
+                    <li>Cheesecake</li>
+                    <li>Cake</li>
+                    <li>Muffin and Cookie</li>
+                    <li>Waffle</li>
+                    <li>Sufle</li>
+                    <li>chocolate eclairs</li>
+                   <li> coconut eclairs</li>
+                   <li>Chocolate donut </li>
+                   <li>Strawberry donut </li>
+                    <li>Breakfast Foodie</li>
+                    <li>Sandwiches</li>
+                    <li>Salad</li>
+                    <li>Snacks</li>
+                    <li>Hamburgers</li>
+                    <li>Pizza</li>
+                </ul>
+                
+            </ul>
+        </div>
+    
+        <div class="right-section">
+            <h2 style="width:100%;">Drinks;</h2>
+            <h2 style="width:100%;">Hot Drinks</h2>
+            <div class="card">
+                <h3>Americano</h3>
+              <img style="width:220px;height:250px"src="americano.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Espresso</h3>
+              <img style="width:220px;height:250px"src="espresso.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Latte</h3>
+              <img style="width:220px;height:250px"src="latte.jpg">
+            </div>
+            <div class="card">
+                <h3>Mocha</h3>
+              <img style="width:220px;height:250px"src="hot.jpg">
+            </div>
+            <div class="card">
+                <h3>Flat White</h3>
+              <img style="width:220px;height:250px"src="flat.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Filter Coffees</h3>
+              <img style="width:220px;height:250px"src="filtre.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Turkish Coffee</h3>
+              <img style="width:220px;height:250px"src="türk.jpg">
+            </div>
+
+         
+            <div class="card">
+                <h3>Hot Chocolate</h3>
+              <img style="width:220px;height:230px"src="çikolata.jpg">
+            </div>
+            <div class="card">
+                <h3>Tea</h3>
+              <img style="width:220px;height:250px"src="tea2.jpg">
+            </div>
+
+            <h2 style="width:100%;"> Cold Drinks</h2>
+
+            <div class="card">
+                <h3>Ice Americano</h3>
+              <img style="width:220px;height:250px"src="iceamericano.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Ice Latte</h3>
+              <img style="width:220px;height:250px"src="icelatte.jpg">
+            </div>
+            <div class="card">
+                <h3>Espresso Frappe</h3>
+              <img style="width:220px;height:250px"src="frappe.jpg">
+            </div>
+            <div class="card">
+                <h3>Ice Cortado</h3>
+              <img style="width:220px;height:250px"src="cortado.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Ice Filter Coffee</h3>
+              <img style="width:220px;height:250px"src="filterice.jpg">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+
+    <style>
+        body {
+            display: flex;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .left-section {
+            flex: 4; /* Sol tarafın genişliği (4 birim) */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .right-section {
+            flex: 8; /* Sağ tarafın genişliği (8 birim) */
+            background-color: #e0e0e0;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Kart (Card) Stilleri */
+        .card {
+            flex: 1; /* Her kartın genişliği eşit olarak paylaşılır */
+            margin: 10px;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>All Product</h2>
+            <ul>
+                <a href="drink.html" ><li><b>Drinks</b></li></a>
+                <li>Hot Drink</li>
+                <li>Cold Drink</li>
+                <li>Tea</li>
+                <li>Filter Coffees</li> 
+                <li>Turkish Coffee</li>
+                <li>Hot Chocolate</li>
+            </ul>
+            <br><br><br>
+            <ul>
+                <a href="food.html" target="_blank" ><li><b>Foodies</b></li></a>
+                
+                <li>Cheesecake</li>
+                <li>Cake</li>
+                <li>Muffin and Cookie</li>
+                <li>Waffle</li>
+                <li>Sufle</li>
+                <li>chocolate eclairs</li>
+               <li> coconut eclairs</li>
+               <li>Chocolate donut </li>
+               <li>Strawberry donut </li>
+                <li>Breakfast Foodie</li>
+                <li>Sandwiches</li>
+                <li>Salad</li>
+                <li>Snacks</li>
+                <li>Hamburgers</li>
+                <li>Pizza</li>
+            </ul>
+        </div>
+    
+        <div class="right-section">
+           
+            <h2 style="width:100%;">Foodies</h2>
+            <div class="card">
+                <h3>Cheesecake</h3>
+              <img style="width:220px;height:250px"src="cheescake.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Cake</h3>
+              <img style="width:220px;height:250px"src="cake.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Muffin and Cookie</h3>
+              <img style="width:220px;height:250px"src="muffin.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Waffle</h3>
+              <img style="width:220px;height:250px"src="waffle.webp">
+            </div>
+
+            <div class="card">
+                <h3>Sufle</h3>
+              <img style="width:220px;height:250px"src="sufle.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Chocolate eclairs</h3>
+              <img style="width:220px;height:250px"src="ekler.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Coconut eclairs</h3>
+              <img style="width:220px;height:250px"src="ekler2.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Chocolate donut</h3>
+              <img style="width:220px;height:250px"src="donut.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Strawberry donut</h3>
+              <img style="width:220px;height:250px"src="donut2.jpg">
+            </div>
+
+
+            <div class="card">
+                <h3>Breakfast Foodie</h3>
+              <img style="width:220px;height:250px"src="breakfast.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Sandwiches</h3>
+              <img style="width:220px;height:250px"src="sandwiches.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Salad</h3>
+              <img style="width:220px;height:230px"src="salad.jpg">
+            </div>
+            <div class="card">
+                <h3>Snacks</h3>
+              <img style="width:220px;height:230px"src="snacks.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Hamburger</h3>
+              <img style="width:220px;height:250px"src="hamburger.jpg">
+            </div>
+
+            <div class="card">
+                <h3>Pizza</h3>
+              <img style="width:220px;height:250px"src="pizza.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
